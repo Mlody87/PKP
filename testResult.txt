@@ -1,0 +1,22 @@
+pkpTest.py::test_pkp_search PASSED                                       [100%]
+
+************** RESULTS **************
+
+Number of the best connections: 1
+1)
+Stations: Kraków Główny
+Lausanne
+Date: 02.09.21
+Departure/Arrive: odj.
+ODJAZD
+00:01  
+przyj.
+PRZYJAZD
+20:16
+Travel time: 20:15
+Transfers: 2
+
+
+============================= 1 passed in 15.12s ==============================
+
+Process finished with exit code 0
