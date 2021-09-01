@@ -28,7 +28,7 @@ class resultsPage:
 
     def printResults(self):
         print("\n\n************** RESULTS **************\n")
-        print("Number of the best connections: " + str(len(self.bestConnections)))
+        print("Number of connections with the least number of transfers: " + str(len(self.bestConnections)))
         for count, item in enumerate(self.bestConnections):
             print(str(count + 1) + ")")
             print("Stations: " + item.stations)
