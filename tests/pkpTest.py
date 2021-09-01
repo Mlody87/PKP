@@ -11,7 +11,7 @@ def browser():
     yield driver
     driver.quit()
 
-def test_pkp_search(browser):
+def test_minNumberOfTransfers(browser):
     search = searchPage.pkpSearchPage(browser)
     search.load()
     search.eatCookies().click()
